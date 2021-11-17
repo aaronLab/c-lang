@@ -7,8 +7,14 @@
 
 #include <stdio.h>
 
+int n;
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    n = 10;
+    printf("%d\n", n);
+    
+    char a = 'A';
+    printf("%c\n", a);
+    
     return 0;
 }
