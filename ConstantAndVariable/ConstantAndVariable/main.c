@@ -7,14 +7,11 @@
 
 #include <stdio.h>
 
-int n;
-
 int main(int argc, const char * argv[]) {
-    n = 10;
-    printf("%d\n", n);
     
-    char a = 'A';
-    printf("%c\n", a);
+    int money;
+    money = 3000;
+    printf("You have $%d.\n", money);
     
     return 0;
 }
