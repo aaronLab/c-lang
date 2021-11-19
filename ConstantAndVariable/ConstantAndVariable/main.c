@@ -13,5 +13,9 @@ int main(int argc, const char * argv[]) {
     money = 3000;
     printf("You have $%d.\n", money);
     
+    money += 3000;
+    
+    printf("You have $%d.\n", money);
+    
     return 0;
 }
